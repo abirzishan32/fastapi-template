@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     
     # Add other settings here (e.g., database URL, API keys)
-    # GOOGLE_API_KEY: str
+    GOOGLE_API_KEY: str
 
     model_config = SettingsConfigDict(env_file=".env")
 
